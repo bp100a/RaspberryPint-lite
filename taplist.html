@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<meta http-equiv="refresh" content="600">
+<head>
+    <title>RaspberryPints lite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Set location of Cascading Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/pint.ico">
+</head>
+
+<body>
+    <div class="bodywrapper">
+        <!-- Header with Brewery Logo and Project Name -->
+        <div class="header clearfix">
+            <div class="HeaderLeft">
+                <a href="admin/admin.php"><img src="img/logo.png?1508426683" height="100" alt=""></a>
+            </div>
+            <div class="HeaderCenter">
+                <h1 id="HeaderTitle">
+                    Currently On Tap
+                </h1>
+            </div>
+<!--            <div class="HeaderRight">
+                <a href="http://www.raspberrypints.com"><img src="img/RaspberryPints.png" height="100" alt=""></a>
+            </div>
+-->
+        </div>
+        <!-- End Header Bar -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="tap-num">
+                        TAP<br>#
+                    </th>
+                    <th class="srm">
+                        GRAVITY<hr>COLOR
+                    </th>
+                    <th class="ibu">
+                        BALANCE<hr>BITTERNESS
+                    </th>
+                    <th class="name">
+                        BEER NAME &nbsp; & &nbsp; STYLE<hr>TASTING NOTES
+                    </th>
+                    <th class="abv">
+                        CALORIES<hr>ALCOHOL
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tblbody_beers">
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="bjcp2015.js"></script>
+    <script type="text/javascript" src="srmrgb.js"></script>
+    <script type="text/javascript" src="beerlist.js"></script>
+    <script type="text/javascript">
+        window.onload = display_beers;
+    </script>
+</body>
+</html>

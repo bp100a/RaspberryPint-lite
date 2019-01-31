@@ -33,6 +33,6 @@ to the Raspberry Pi is as follows:
 
 You should end up with something like this:
 
-.. image:: https://raw.githubusercontent.com/bp100a/RaspberryPint-lite/master/Sample.png
+.. image:: https://raw.githubusercontent.com/bp100a/RaspberryPint-lite/blob/master/Sample.png
    :height: 500
    :align: center

@@ -27,8 +27,9 @@ jobs:
       - run:
           name: stash zipfile as artifact
           command: |
+            cd ~
              mkdir zipfile
-             mv ~/repo/site.zip zipfile/site.zip
+             mv ~/site.zip zipfile/site.zip
       - store_artifacts:
           path: zipfile/
 

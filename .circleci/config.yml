@@ -45,6 +45,7 @@ jobs:
             # add the remote Pi public key so SCP doesn't
             # get hung up on permssions
             sudo echo $PI_PUBKEY >> ~/.ssh/known_hosts
+            echo "Pi Key: " $PI_PUBKEY
             cat ~/.ssh/known_hosts
             scp -rP $SCP_PORT ~/repo/* $PIUSER@$SCP_IP:/home/pi/RaspberryPint-lite
             ls -al

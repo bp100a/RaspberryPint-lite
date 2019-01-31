@@ -43,7 +43,7 @@ jobs:
           name: Access Raspberry Pi
           command: |
             sudo echo $PIBLOG_HOSTKEY >> ~/.ssh/known_hosts
-            scp -r ~/repo/* $PIUSER@$PIBLOG:/home/pi/RaspberryPint-lite
+            scp -rP $SCP_PORT ~/repo/* $PIUSER@$SCP_IP:/home/pi/RaspberryPint-lite
             ls -al
 
 

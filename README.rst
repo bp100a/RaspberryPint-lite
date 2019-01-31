@@ -27,4 +27,5 @@ to the Raspberry Pi is as follows:
 4) In the CircleCI config.yml file, copy the SSH key fingerprint
 5) In your CircleCI container, install openssh-client
 6) In CircleCI you have to add your Raspberry Pi key to the known hosts
+    a) from /etc/ssh/ssh_host_ecdsa_key.pub
 7) scp files to the pi

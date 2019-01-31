@@ -15,27 +15,20 @@ jobs:
     steps:
       - checkout
       - run:
-          name: get submodule (theme)
-          command: git submodule update --init
-      - run:
           name: make folders
           command: mkdir test-reports
-
       - store_artifacts:
-          path: public/
-
-      - store_test_results:
-          path: public/
+          path: ~/repo
       - run:
           name: zip up generated Site
           command: |
-             cd public
-             zip -r ../public.zip  *
+             cd ~/repo
+             zip -r ../site.zip  *
       - run:
           name: stash zipfile as artifact
           command: |
              mkdir zipfile
-             mv public.zip zipfile/public.zip
+             mv site.zip zipfile/site.zip
       - store_artifacts:
           path: zipfile/
 
@@ -49,7 +42,7 @@ jobs:
           name: Access Raspberry Pi
           command: |
             sudo echo $PIBLOG_HOSTKEY >> ~/.ssh/known_hosts
-            scp -r public/* $PIUSER@$PIBLOG:/home/pi/RaspberryPint-lite
+            scp -r ~/repo/* $PIUSER@$PIBLOG:/home/pi/RaspberryPint-lite
             ls -al
 
 

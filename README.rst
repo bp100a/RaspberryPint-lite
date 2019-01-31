@@ -28,4 +28,11 @@ to the Raspberry Pi is as follows:
 5) In your CircleCI container, install openssh-client
 6) In CircleCI you have to add your Raspberry Pi key to the known hosts
     a) from /etc/ssh/ssh_host_ecdsa_key.pub
+    b) prefix hostname & ip address: myserver.com,100.10.12.43 <public key>
 7) scp files to the pi
+
+You should end up with something like this:
+
+.. image:: https://raw.githubusercontent.com/bp100a/RaspberryPint-lite/master/Sample.png
+   :height: 500
+   :align: center

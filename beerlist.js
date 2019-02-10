@@ -14,8 +14,8 @@ beer_list = [
 
     {
         "TAP": 5, "OG": "1.090", "FG": "1.018", "SRM": "5.0", "IBU": "20.0",
-        "NAME": "Blurred Lines", "DESCRIPTION": "Pretty strong! be careful. Debutted at HungusFest 2017",
-        "STYLE": "Belgian Tripel", "BREWDATE": "20170817"
+        "NAME": "Barrel Aged Saison", "DESCRIPTION": "Still looking for info...",
+        "STYLE": "Saison", "BREWDATE": "20180908"
     },
 
 

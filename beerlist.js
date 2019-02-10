@@ -1,15 +1,15 @@
 ﻿
 beer_list = [
     {
-         "TAP": 3, "OG": "1.034", "FG": "1.010", "SRM": "2.9", "IBU": "17.4",
-         "NAME": "Ich Bin Ein Berliner!", "DESCRIPTION": "mash tun soured",
-         "STYLE": "Berliner Weisse", "BREWDATE": "20170625"
+         "TAP": 3, "OG": "1.098", "FG": "1.022", "SRM": "9.7", "IBU": "60",
+         "NAME": "Wheat Wine", "DESCRIPTION": "excess for barrel project",
+         "STYLE": "Barley Wine", "BREWDATE": "20171226"
     },
 
     {
-        "TAP": 4, "OG": "1.069", "FG": "1.028", "SRM": "5.0", "IBU": "19.2",
-        "NAME": "Alex Doppelbock", "DESCRIPTION": "Less malty than Troegenator",
-        "STYLE": "Doppelbock", "BREWDATE": "20171218"
+        "TAP": 4, "OG": "1.060", "FG": "1.020", "SRM": "5.0", "IBU": "19.2",
+        "NAME": "Oud Bruin", "DESCRIPTION": "yeast cake & lactos culture",
+        "STYLE": "Oud Bruin", "BREWDATE": "20171202"
     },
 
     {
@@ -26,16 +26,16 @@ beer_list = [
     },
 
     {
-        "TAP": 7, "OG": "1.048", "FG": "1.010", "SRM": "3.6", "IBU": "11.6",
-        "NAME": "Honey Hefeweizen", "DESCRIPTION": "A standard German Hefeweizen using WLP300, with honey added to increase alcohol",
-        "STYLE": "German Hefeweizen", "BREWDATE": "20171231"
+        "TAP": 7, "OG": "1.062", "FG": "1.014", "SRM": "15.8", "IBU": "10.5",
+        "NAME": "St. Claire's Flanders Red", "DESCRIPTION": "a basic flanders red",
+        "STYLE": "Flanders Red", "BREWDATE": "20180219"
     },
 
 
     {
-        "TAP": 8, "OG": "1.052", "FG": "1.018", "SRM": "4.7", "IBU": "31.34",
-        "NAME": "New Albion Ale", "DESCRIPTION": "A SMASH beer of just Pale Malt and Cascade, with a touch of Rye for color and spice. Based on New Albion Ale of the defunct New Albion Brewer, San Francisco",
-        "STYLE": "Pale Ale", "BREWDATE": "20171219"
+        "TAP": 8, "OG": "1.046", "FG": "1.010", "SRM": "4.7", "IBU": "31.34",
+        "NAME": "Hungus Witbier", "DESCRIPTION": "A beer brewed for Hungusfest 2018",
+        "STYLE": "Belgian Witbier", "BREWDATE": "20171219"
     }
 
 ];

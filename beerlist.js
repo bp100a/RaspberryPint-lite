@@ -13,9 +13,9 @@ beer_list = [
     },
 
     {
-        "TAP": 5, "OG": "1.090", "FG": "1.018", "SRM": "5.0", "IBU": "20.0",
-        "NAME": "Barrel Aged Saison", "DESCRIPTION": "Still looking for info...",
-        "STYLE": "Saison", "BREWDATE": "20180908"
+        "TAP": 5, "OG": "1.098", "FG": "1.022", "SRM": "10", "IBU": "60",
+        "NAME": "Barrel Wheat Wine", "DESCRIPTION": "wheat wine, barrel aged at Steve Ashtons",
+        "STYLE": "Barley Wine", "BREWDATE": "20171226"
     },
 
 
